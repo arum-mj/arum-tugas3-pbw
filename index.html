@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+<meta charset="UTF-8">
+<title>SITTA UT - Tugas 3</title>
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<div id="app">
+
+<h1>Aplikasi SITTA UT</h1>
+
+<p>
+Sistem Informasi Tracking dan Distribusi
+Bahan Ajar Universitas Terbuka
+</p>
+
+<div class="menu">
+
+<button @click="tab='stok'">
+
+Halaman Stok
+
+</button>
+
+<button @click="tab='tracking'">
+
+Tracking DO
+
+</button>
+
+</div>
+
+<hr>
+
+<stock-table
+v-if="tab==='stok'">
+
+</stock-table>
+
+<do-tracking
+v-if="tab==='tracking'">
+
+</do-tracking>
+
+</div>
+
+<!-- SCRIPT -->
+<script src="https://cdn.jsdelivr.net/npm/vue@2.7.16/dist/vue.js"></script>
+<script src="js/components/stock-table.js"></script>
+<script src="js/components/do-tracking.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+
+</html>

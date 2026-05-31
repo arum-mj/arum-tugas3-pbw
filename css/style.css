@@ -1,0 +1,358 @@
+body{
+
+  font-family: Arial, sans-serif;
+  background-color: #e8f3f1;
+  margin: 0;
+  padding: 30px;
+  color: #333;
+
+}
+
+/* JUDUL */
+h1, h2, h3{
+
+  color: #2bbbad;
+
+}
+
+/* CARD */
+.container,
+#app{
+
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+
+}
+
+/* TABLE */
+table{
+
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 10px;
+
+}
+
+th{
+
+  background-color: #2bbbad;
+  color: white;
+  padding: 12px;
+  text-align: center;
+
+}
+
+td{
+
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+
+}
+
+tr:nth-child(even){
+
+  background-color: #f7fbfa;
+
+}
+
+/* STATUS */
+.safe{
+
+  color: green;
+  font-weight: bold;
+
+}
+
+.warning{
+
+  color: orange;
+  font-weight: bold;
+
+}
+
+.danger{
+
+  color: red;
+  font-weight: bold;
+
+}
+
+/* INPUT */
+input,
+select{
+
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #b8e5df;
+  border-radius: 8px;
+  outline: none;
+
+}
+
+input:focus,
+select:focus{
+
+  border-color: #2bbbad;
+
+}
+
+/* BUTTON */
+button{
+
+  background-color: #2bbbad;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+
+}
+
+button:hover{
+
+  background-color: #239b90;
+
+}
+
+/* MENU INDEX */
+.container{
+
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+
+}
+
+.menu{
+
+  margin-top: 30px;
+
+}
+
+.menu a{
+
+  text-decoration: none;
+  background-color: #2bbbad;
+  color: white;
+  padding: 15px 25px;
+  margin: 10px;
+  display: inline-block;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: 0.3s;
+
+}
+
+.menu a:hover{
+
+  background-color: #239b90;
+
+}
+
+/* FORM TAMBAH */
+.form-tambah{
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin-top: 15px;
+
+}
+
+.form-tambah input{
+
+  width: 120px;
+
+}
+
+.input-judul{
+
+  width: 220px !important;
+
+}
+
+.filter-group{
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+
+}
+
+.filter-group label{
+
+  width: 140px;
+  font-weight: bold;
+
+}
+
+.filter-group select{
+
+  width: 180px;
+
+}
+
+.form-group{
+
+  display: grid;
+  grid-template-columns: 180px 260px;
+  align-items: center;
+  margin-bottom: 15px;
+
+}
+
+.form-group label{
+
+  font-weight: bold;
+
+}
+
+.form-group select,
+.form-group input{
+
+  width: 260px;
+  height: 42px;
+  box-sizing: border-box;
+
+}
+.tracking-card{
+
+  max-width: 700px;
+  margin: auto;
+
+}
+
+.isi-paket{
+
+  background-color: #f7fbfa;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+
+}
+
+.total-box{
+
+  background-color: #2bbbad;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+  text-align: center;
+
+}
+
+.total-box h2{
+
+  color: white;
+  margin: 0;
+
+}
+
+.form-group{
+
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  align-items: center;
+  margin-bottom: 18px;
+
+}
+
+.form-group label{
+
+  font-weight: bold;
+
+}
+
+.form-group input,
+.form-group select{
+
+  width: 100%;
+  max-width: 350px;
+
+}.form-group{
+
+  display: grid;
+  grid-template-columns: 180px 350px;
+  align-items: center;
+  margin-bottom: 20px;
+
+}
+
+.form-group label{
+
+  font-weight: bold;
+
+}
+
+.form-group input,
+.form-group select{
+
+  width: 350px;
+  height: 42px;
+  box-sizing: border-box;
+
+}
+.tracking-card h1{
+
+  text-align: center;
+
+}
+
+.button-area{
+
+  text-align: center;
+  margin-top: 20px;
+
+}
+
+.button-area button{
+
+  width: 250px;
+  height: 45px;
+  font-size: 16px;
+
+}
+
+/* ===== TUGAS 3 TAB MENU ===== */
+
+#app{
+
+max-width:1200px;
+margin:auto;
+
+}
+
+.menu{
+
+display:flex;
+justify-content:center;
+gap:15px;
+margin-top:20px;
+margin-bottom:30px;
+
+}
+
+.menu button{
+
+min-width:180px;
+
+}
+
+hr{
+
+border:none;
+border-top:1px solid #ddd;
+margin:30px 0;
+
+}
